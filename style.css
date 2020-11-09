@@ -396,6 +396,16 @@ main{
     background-repeat: no-repeat;
 }
 
+.product-detail--card .eye{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: ;
+    background-image: url("./assets/icons/eye.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .product-detail--card .dollar{
     display: inline-block;
     width: 20px;
@@ -501,7 +511,6 @@ scroll-snap-align: center;
 .plans-container--card{
     position: relative;
     scroll-snap-align: center;
-    gap: 20px;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -581,12 +590,11 @@ scroll-snap-align: center;
 .plans-container--card-basic{
     position: relative;
     scroll-snap-align: center;
-    gap: 20px;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 20px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -638,16 +646,15 @@ scroll-snap-align: center;
 .plans-container--card-limitless{
     position: relative;
     scroll-snap-align: center;
-    gap: 20px;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 20px 0;
     padding: 0 15px;
     background-color: var(--warm-black);
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 4px 8px rgba(89, 73, 23, 0.16);
 }
 
 .limitless{
